@@ -1,10 +1,6 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: arabic,eng;
-	width: 100%;
-	height: 100%;
-	background: #000;
 }
 html {height: 100%;}
 
@@ -19,6 +15,4 @@ html {height: 100%;}
 
 a:focus, a:hover {outline: none;}
 
-@include font-face('arabic', 'GE_Dinar_One_Medium', 'arabic', '.otf','regular');
-@include font-face('eng', 'VAGRoundedLight', 'eng', '.ttf','light');
-@include font-face('engB', 'VAGRoundedBold', 'engB', '.ttf','bold');
+// @include font-face('arabic', 'GE_Dinar_One_Medium', 'arabic', '.otf','regular');
