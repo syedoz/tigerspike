@@ -1,0 +1,28 @@
+header .lang-prof {font-family: arabic,eng;}
+.subsTable .tbRow .tbTr {float: left;}
+.subsTable .tbRow .tbTr:first-child {text-align: left;}
+footer .rightCont {float: left; text-align: left;}
+footer .rightCont .rightNav {padding: 0;}
+footer .rightCont .rightNav li {float: left; &:first-child {margin-left:0;}}
+footer .leftCont {text-align: right;}
+footer .socialList li {
+    &:first-child {margin-left: 0;}
+}
+
+footer .leftCont {
+    direction: ltr;
+    .cright {font-size: 1.1em;}
+}
+
+header {
+    .lang-prof {float: right;}
+    .logo {float: left;}
+}
+
+.slideCntnt {
+    h2 {font-family: engB;}
+}
+.slidrCta {font-size: 19px; font-family: engB;}
+.aftrBtn {font-size: 17px;}
+.subscrib-box h2 {font-family: engB;}
+header .lang-prof li a {font-family: arabic,eng;}
