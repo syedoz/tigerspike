@@ -1,4 +1,4 @@
-## TV.AE Landing Page
+## Grunt Kick off
 
 Follow the steps below to kick start your grunt project with basic modules configuration.
 Full tutorial on how to work on grunt from scratch coming soon.
