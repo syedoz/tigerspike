@@ -18,8 +18,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {                         // Dictionary of files
-          'build/css/main.css': 'src/sass/main.scss',
-          'build/css/en.css': 'src/sass/en.scss'       // 'destination': 'source'
+          'build/css/main.css': 'src/sass/main.scss'
         }
       }
     },
