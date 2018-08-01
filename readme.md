@@ -1,20 +1,35 @@
-## Grunt Kick off
+## Prerequesties
 
-Follow the steps below to kick start your grunt project with basic modules configuration.
-Full tutorial on how to work on grunt from scratch coming soon.
+- Node JS
+- Grunt
+- Npm
 
-## Prerequisites
+## Installation
 
-This project requires Node.js and ruby installed in system with npm upto date and Grunt 1.0.1. installed in development folder.
+1. `git clone https://github.com/syedoz/tigerspike.git`
+2. `cd tigerspike`
+3. `npm install`
 
-## Getting Started
+## Dev
 
-Install all dependencies listed in package.json by
-```
-$ npm install
-```
+To run in development mode install all the prerequesties and run following commands.
 
-Run Grunt to generate build folder with compressed js, images and css by using following command
-```
-$ grunt build
-```
+* "Grunt Build" to build solution and generate assests.
+* "Grunt Watch" to start listening to JS and CSS changes.
+* "Grunt imagemin" to minify images.
+
+
+## Built with
+
+* Bootstrap (base framrwork)
+* Grunt (For task automation)
+* SASS (CSS PreProcessor)
+* Imagemin (For image minification)
+* uglify (For JS Compression)
+* jQuery Validate
+* JsHint (For JS testing and errors)
+
+
+## Note
+
+Both source and production folder are included in solution to make it viewable without setting up dev environment.

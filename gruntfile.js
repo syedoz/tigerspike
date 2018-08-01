@@ -8,7 +8,11 @@ module.exports = function(grunt) {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: ['node_modules/jquery/dist/jquery.js','node_modules/owl.carousel/dist/owl.carousel.js','src/js/*.js'],
+        src: [
+          'node_modules/jquery/dist/jquery.js',
+          'node_modules/jquery-validation/dist/jquery.validate.js',
+          'src/js/*.js'
+        ],
         dest: 'build/js/<%= pkg.name %>.min.js'
       }
     },

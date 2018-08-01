@@ -1,0 +1,39 @@
+.form-area {
+    header {
+        margin: 50px 0px 30px;
+        h2 {font-size: $h2;}
+        p {font-size: 20px;}
+    }
+    .form-container {
+        background: $baseColor; padding: 15px; @include clearfix();
+        form {
+            width: 70%; background: $form; padding: 25px; @include clearfix(); float: left;
+            .from-row {
+                width: 100%; margin-bottom: 18px;
+                label.error {
+                    color: #d40000;
+                    font-weight: normal;
+                    font-size: 12px;
+                }
+            }
+            label {width: 100%; font-weight: bold; font-size: 16px;}
+            input {
+                &[type="text"], &[type="password"]{
+                    width: 100%; border-radius: 4px; padding: 10px; border: 1px solid #ccc;
+                    -webkit-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.3);
+                    -moz-box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.3);
+                    box-shadow: inset 0px 0px 1px 0px rgba(0,0,0,0.3);
+                    &:focus {outline: 0;}
+                    &::-webkit-input-placeholder {font-style: italic;}
+                    &::-moz-placeholder {font-style: italic;}
+                    &:-ms-input-placeholder {font-style: italic;}
+                    &:-moz-placeholder {font-style: italic;}
+                }
+                &[type="submit"] {
+                    background: $darkGrey; padding: 12px 50px; font-size: 18px; color: $white; border-radius: 4px; float: right;
+                }
+            }
+        }
+        aside {width: 30%; float: left; text-align: center;}
+    }
+}

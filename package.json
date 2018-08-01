@@ -1,10 +1,10 @@
 {
-  "name": "GruntTemplate",
+  "name": "tigerspike",
   "version": "0.0.1",
-  "description": "Grunt kick off structure",
+  "description": "Test assignment for tigerspike",
   "repository": {
     "type": "git",
-    "url": "https://github.com/syedoz/grunt"
+    "url": "https://github.com/syedoz/tigerspike"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
